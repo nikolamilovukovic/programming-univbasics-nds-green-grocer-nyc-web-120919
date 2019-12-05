@@ -69,13 +69,11 @@ end
   # REMEMBER: This method **should** update cart
 
 def apply_clearance(cart)
-  cart.keys.each do |item|
-    if cart[item][:clearance]
-      cart[item][:price] = (cart[item][:price]* 0.8).round(2)
-    end
-  end
-  cart
-end 
+ i = 0 
+  while i < cart.length
+  
+  end 
+ end 
  # Consult README for inputs and outputs
   #
   # REMEMBER: This method **should** update cart
