@@ -58,11 +58,11 @@ def apply_coupons(cart, coupons)
             }
             cart << cart_item_with_coupon
             cart_item[:count] -= coupons[i][:num]
-          end 
         end 
     end 
   i += 1 
   end
+  cart
   
   # Consult README for inputs and outputs
   #
